@@ -1,0 +1,572 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grace{
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    /* margin-top: 1px; */
+}
+.logo{
+    width: 32%;
+}
+.parti1{
+    display: flex;
+}
+.sous-parti2{
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+}
+.fa-caret-up{
+    color: #ff9800;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+   height: 5rem;
+   box-shadow: 1px 4px rgba(58, 56, 56, 0.32);
+
+}
+/* parti2 */
+.div-section1{
+    /* border: 1px solid #000 ; */
+    border-radius: 12px;
+    padding: 4%;
+    color: rgba(128, 128, 128, 0.927);
+    box-shadow:  -1px -1px 3px 3px  rgba(58, 56, 56, 0.32);
+    width: 100%;
+    height: 30rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    /* margin-top: 20px; */
+}
+.togle{
+    display: none;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.div0{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #06886a11;
+    color: #05d1a1f5 ;
+    border-radius: 0px 50px 50px 0px ;
+    /* border: 1px solid transparent; */
+    width: 15.9rem;
+    margin-top: 30px;
+}
+/* parti3 */
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 5%;
+}
+.main2{
+    border-radius: 12px;
+}
+.photo1{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo2{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.sous1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.homme{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.homme2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.femme{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+h2{
+    color: #05d1a1f5;
+    padding: 2%;
+}
+.h2{
+    color: #05d1a1f5;
+}
+.div-section2{
+    border: 1px solid transparent;
+    box-shadow:  -1px -1px 3px 3px  rgba(58, 56, 56, 0.32);
+    border-radius: 12px;
+  
+}
+/* parti4 */
+.cour{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lang1{
+    background-color: #0acfa1e5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 6rem;
+}
+.lang1{
+    margin-top: 40px;
+}
+.mots{
+    margin-top: -40px;
+    font-size: 14px;
+
+}
+.lang1 > img{
+    width: 100%;
+}
+.cours1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cours2{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h6{
+    font-size: 18px;
+}
+/* partie5 */
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+input[type=search]{
+    width: 50rem;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid rgba(128, 128, 128, 0.792);
+}
+::placeholder{
+ color: rgba(128, 128, 128, 0.804);
+ font-size: 15px;
+ padding: 3%;
+ font-weight: bold;
+}
+button{
+    padding: 12px;
+    background-color: #05d1a1f5;
+    color: #fff;
+   border-radius: 50px;
+   width: 12%;
+   border: none;
+   font-weight: bold;
+   font-size: 16px;
+
+
+}
+.fa-magnifying-glass{
+   position: relative;
+   left: 25px;
+}
+.span{
+    background-color: #f96b57;
+    color: #fff;
+    width: 20%;
+    padding: 1px;
+    position: relative;
+    top: 30px;
+}
+.fa-circle-play{
+    color: #fff;
+    position: relative;
+    left: -10rem;
+    top: -5rem;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.div-section3{
+    border: 1px solid transparent;
+    box-shadow:  -1px -1px 3px 3px  rgba(58, 56, 56, 0.32);
+    border-radius: 12px;
+}
+/* parti6 */
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulaire{
+    display: flex;
+  justify-content: space-around;
+}
+.form1 input{
+    width: 90%;
+    background-color: #05d1a10e;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid transparent;
+}
+.for{
+    display: flex;
+    gap: 20px;
+}
+textarea{
+    background-color: #05d1a10e;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid transparent;
+}
+.icone-fin{
+    color: #05d1a1f5;
+    gap: 10px;
+}
+.per{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.562);
+}
+.fort{
+    color: rgba(128, 128, 128, 0.856);
+}
+/* derniere parti */
+.section-foot{
+    background-color: #069a77;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding: 2%;
+}
+.titre{
+    color: #fff;
+    font-size: 18px;
+}
+.foot2{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fa-caret-right{
+    color: #ff9800;
+}.fin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    background-color: #036f56;
+    gap: 10px;
+}
+.togle:checked ~ .div-section1 {
+    max-height: 200px;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+@media screen  and (min-width:350px) and (max-width:500px) {
+    body{
+        width: 100%;
+        font-size: 15px;
+    }
+    /* *{
+        border: 1px solid red;
+    } */
+   
+    .togle{
+        display: block;
+    }
+    .div-section1{
+        display: none;
+    }
+    .togle:hover+.div-section1{
+        display: block;
+        padding: 9px;
+    }
+    .nav1{
+        width: 100%;
+        font-size: 14px;
+    }
+    .main2{
+        width: 80%;
+    }
+    .photo1{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo2{
+        display: flex;
+        flex-direction: column;
+    }
+    .cour{
+        display: flex;
+        flex-direction: column;
+    }
+    .recherche{
+        display: flex;
+        flex-direction: column;
+    }
+    input[type=search]{
+        width: 15rem;
+    }
+    ::placeholder{
+        padding: 5%;
+        font-size: 9px;
+    }
+    .fa-magnifying-glass{
+        position: relative;
+        top: 30px;
+        left: -1px;
+    }
+    button{
+        width: auto;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+     .code{
+        width: 100%;
+    }
+    .span{
+        width: 33%;
+    }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+    }
+    .form2{
+        font-size: 10px;
+    }
+    .form1 input{
+        font-size: 10px;
+        padding: 0;
+    }
+    textarea{
+        width: 80%;
+    }
+    .section-foot{
+        font-size: 5px;
+    }
+    .titre{
+        font-size: 6px;
+    }
+    .fin{
+        font-size: 6px;
+    }
+}
+@media screen  and (min-width:501px) and (max-width:700PX) {
+    body{
+        width: 100%;
+        font-size: 15px;
+    }
+    /* *{
+        border: 1px solid red;
+    } */
+   
+    .togle{
+        display: block;
+    }
+    .div-section1{
+        display: none;
+    }
+    .togle:hover+.div-section1{
+        display: block;
+        padding: 9px;
+    }
+    .nav1{
+        width: 100%;
+        font-size: 14px;
+    }
+    .main2{
+        width: 80%;
+    }
+    .photo1{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo2{
+        display: flex;
+        flex-direction: column;
+    }
+    .cour{
+        display: flex;
+        flex-direction: column;
+    }
+    .recherche{
+        display: flex;
+        flex-direction: column;
+    }
+    input[type=search]{
+        width: 15rem;
+    }
+    ::placeholder{
+        padding: 5%;
+        font-size: 9px;
+    }
+    .fa-magnifying-glass{
+        position: relative;
+        top: 30px;
+        left: -1px;
+    }
+    button{
+        width: auto;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+     .code{
+        width: 100%;
+    }
+    .span{
+        width: 33%;
+    }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+    }
+    .form2{
+        font-size: 10px;
+    }
+    .form1 input{
+        font-size: 10px;
+        padding: 0;
+    }
+    textarea{
+        width: 80%;
+    }
+    .section-foot{
+        font-size: 5px;
+    }
+    .titre{
+        font-size: 6px;
+    }
+    .fin{
+        font-size: 6px;
+    }
+    
+}
+@media screen  and (min-width:701px) and (max-width:900px){
+    body{
+        width: 100%;
+        font-size: 15px;
+    }
+    /* *{
+        border: 1px solid red;
+    } */
+   
+    .togle{
+        display: block;
+    }
+    .div-section1{
+        display: none;
+    }
+    .togle:hover+.div-section1{
+        display: block;
+        padding: 9px;
+    }
+    .nav1{
+        width: 100%;
+        font-size: 14px;
+    }
+    .main2{
+        width: 80%;
+    }
+    .photo1{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo2{
+        display: flex;
+        flex-direction: column;
+    }
+    .cour{
+        display: flex;
+        flex-direction: column;
+    }
+    .recherche{
+        display: flex;
+        flex-direction: column;
+    }
+    input[type=search]{
+        width: 15rem;
+    }
+    ::placeholder{
+        padding: 5%;
+        font-size: 9px;
+    }
+    .fa-magnifying-glass{
+        position: relative;
+        top: 30px;
+        left: -1px;
+    }
+    button{
+        width: auto;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+     .code{
+        width: 100%;
+    }
+    .span{
+        width: 33%;
+    }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+    }
+    .form2{
+        font-size: 10px;
+    }
+    .form1 input{
+        font-size: 10px;
+        padding: 0;
+    }
+    textarea{
+        width: 80%;
+    }
+    .section-foot{
+        font-size: 5px;
+    }
+    .titre{
+        font-size: 6px;
+    }
+    .fin{
+        font-size: 6px;
+    }
+}

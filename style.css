@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    padding: 0;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -610,5 +614,52 @@ textarea{
     }
     .fin{
         font-size: 6px;
+    }
+}
+@media screen  and (min-width:901px) and (max-width:1024px){
+    .nav1{
+        width: 100%;
+    }
+    .div-section2{
+        width: 70%;
+        height: 90rem;
+    }
+    .photo1{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo2{
+        display: flex;
+        flex-direction: column;
+    }
+    .coachs{
+        display: flex;
+    }
+    .div-section3{
+        width: 70%;
+    }
+    input[type=search]{
+        width: 14rem;
+    }
+    button{
+        width: 25%;
+    }
+     .code{
+        width: 100%;
+    }
+    .vid1{
+        font-size: 15px;
+    }
+    .fa-circle-play{
+       position: relative;
+       left: 20px;
+       top: -40px;
+    }
+    .span{
+        width: 52%;
+    }
+    .sous1{
+        display: flex;
+        flex-direction: column;
     }
 }
